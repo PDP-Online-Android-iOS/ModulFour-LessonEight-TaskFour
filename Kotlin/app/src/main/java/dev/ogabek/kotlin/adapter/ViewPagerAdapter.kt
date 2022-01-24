@@ -18,6 +18,6 @@ class ViewPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
         fragmentTitle.add(title)
     }
 
-    override fun getPageTitle(position: Int): CharSequence = fragmentTitle[position]
+    override fun getPageTitle(position: Int) = fragmentTitle[position]
 
 }
